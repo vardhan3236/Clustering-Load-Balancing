@@ -12,8 +12,10 @@ if (cluster.isMaster) {
   const app = express();
 
   app.use(handleRequest);
-
+  
   app.listen(3000 + cluster.worker.id, () => {
     console.log(`Worker ${cluster.worker.id} has started`);
   });
+
+
 }

@@ -37,7 +37,6 @@ const nodes = [
 const ring = new HashRing(nodes);
 
 module.exports = handleRequest = (req, res) => {
-    console.log('Hellloooo');
   let node = ring.getNode(req.url);
   res.status(200).send(`Request ${req.url} is assigned to ${node}`);
 };
