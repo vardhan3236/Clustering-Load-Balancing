@@ -1,4 +1,4 @@
-# Scalable and Fault-tolerant Application using Clustering and Load Balancing | Node.js, Cluster May 2023
+# Scalable and Fault-tolerant Application using Clustering and Load Balancing | Node.js, Cluster
 
 • Implemented a scalable and fault-tolerant Node.js application using clustering, load balancing, and consistent hashing.
 • The application consists of a master process and three worker processes, each running on a separate server (3001, 3002,
