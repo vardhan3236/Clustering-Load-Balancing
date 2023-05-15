@@ -1,13 +1,13 @@
 # Scalable and Fault-tolerant Application using Clustering and Load Balancing | Node.js, Cluster
 
-• Implemented a scalable and fault-tolerant Node.js application using clustering, load balancing, and consistent hashing.
-• The application consists of a master process and three worker processes, each running on a separate server (3001, 3002,
+Implemented a scalable and fault-tolerant Node.js application using clustering, load balancing, and consistent hashing.
+The application consists of a master process and three worker processes, each running on a separate server (3001, 3002,
 and 3003)
-• Incoming client requests are load balanced using consistent hashing, which distributes the requests evenly across the
+Incoming client requests are load balanced using consistent hashing, which distributes the requests evenly across the
 servers
-• To improve fault tolerance, three virtual nodes are created for each server and kept in a circular ring along with their
+To improve fault tolerance, three virtual nodes are created for each server and kept in a circular ring along with their
 hash values
-• This approach ensures high availability, fault tolerance, and scalabilit
+This approach ensures high availability, fault tolerance, and scalabilit
 
 ### Request http://localhost:3001/hello request assigned to http://localhost:3000 through Consistent Hashing
 
